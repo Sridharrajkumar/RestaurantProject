@@ -2,7 +2,8 @@ import React ,{Fragment} from "react";
 import classes from './Header.module.css';
 import mealsImage from '../../Assets/meals.jpg'; 
 import HeaderCartButton from "./HeaderCartButton";
-import MealsContent from "./MealsContent";
+import MealsContent from "../Meals/MealsContent";
+import DummyMeals from "../Meals/DummyMeals";
 
 const Header = () =>{
 
@@ -17,6 +18,7 @@ const Header = () =>{
                 
             </div>
              <MealsContent />
+             <DummyMeals />
             
             
         </Fragment>
