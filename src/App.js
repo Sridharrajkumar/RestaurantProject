@@ -5,7 +5,7 @@ import Header from "./component/LayOut/Header";
 function App() {
   return (
     <Fragment>
-      <Header />
+      <Header />  
       
     </Fragment>
   );
